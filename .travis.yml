@@ -1,9 +1,8 @@
 dist: trusty
 language: cpp
 compiler:
-  - qmake
+  - make
 
 script:
   - cd software
-  - qmake
   - make
