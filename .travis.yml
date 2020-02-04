@@ -1,8 +1,8 @@
 dist: trusty
 language: cpp
 compiler:
-  - make
+  - gcc
 
 script:
   - cd software
-  - make .
+  - make 
