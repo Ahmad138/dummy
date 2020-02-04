@@ -1,10 +1,8 @@
 dist: trusty
 language: cpp
 compiler:
-  - gcc
+  - cmake
 
 script:
   - cd software
-  - mv Makefile Makefile.old
-  - unexpand Makefile.old > Makefile
-  - make
+  - cmake .
