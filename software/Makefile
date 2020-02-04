@@ -1,5 +1,5 @@
 CC=gcc
 CFLAGS=-I.
 
-main: main.o main.o
+main: main.o
      $(CC) -o main main.o 
