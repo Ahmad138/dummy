@@ -1,10 +1,9 @@
 dist: trusty
 language: cpp
 compiler:
-  - clang
-  - gcc
+  - qmake
 
 script:
   - cd software
-  - gcc -o main main.cpp
-  - ./main
+  - qmake
+  - make
